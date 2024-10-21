@@ -1,0 +1,41 @@
+**RupeeRatna**
+RupeeRatna is a responsive and user-friendly static website built using HTML, CSS, and JavaScript. It features a clean and modern design aimed at providing an engaging and seamless user experience.
+
+**🖥️ Live Demo**
+Check out the live demo of the website here: RupeeRatna Live
+
+**📂 Project Structure**
+The project consists of the following major components:
+
+HTML: Provides the structure and content of the web pages.
+CSS: Defines the layout, styling, and responsive design to ensure the website looks good on all devices.
+JavaScript: Adds interactivity and dynamic elements to enhance user engagement.
+Note: The project originally included the slick-slider (version 1.8.1). However, the slick-slider folder has been excluded from this GitHub repository. You can add it back if needed by downloading it here.
+
+**🛠️ Technologies Used**
+HTML5
+CSS3
+JavaScript (ES6)
+Slick Slider (version 1.8.1)
+Netlify (for deployment)
+**🚀 Features**
+Fully responsive layout for optimal viewing on different devices.
+User-friendly navigation and clean design.
+Deployed for quick and easy preview using Netlify.
+**📦 Installation**
+To run this project locally, follow these steps:
+
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/rupeeratna.git
+Navigate to the project folder:
+bash
+Copy code
+cd rupeeratna
+(Optional) Download and include the slick-slider library if required:
+Download slick-slider 1.8.1
+Place the folder in your project directory and link the necessary CSS and JS files in your HTML.
+Open the index.html file in your browser to view the website locally.
+**🌐 Deployment**
+The website is deployed on Netlify for easy access and preview. For deployment instructions, you can refer to Netlify's documentation.
