@@ -40,7 +40,7 @@ To run this project locally, follow these steps:
 wedwe
 Navigate to the project folder:
    ```bash
-   cd rupeeratn
+   cd rupeeratna
 ```
 
 ## (Optional) Download and include the slick-slider library if required:
