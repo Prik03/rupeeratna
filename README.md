@@ -37,8 +37,16 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/rupeeratna.git
-
+wedwe
 Navigate to the project folder:
-```bash
-cd rupeeratna
+   ```bash
+   cd rupeeratn
+```
 
+## (Optional) Download and include the slick-slider library if required:
+Download slick-slider 1.8.1
+Place the folder in your project directory and link the necessary CSS and JS files in your HTML.
+Open the index.html file in your browser to view the website locally.
+##🌐 Deployment
+
+The website is deployed on Netlify for easy access and preview. For deployment instructions, you can refer to Netlify's documentation.
