@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rupeeratna</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./slick-1.8.1/slick-1.8.1/slick/slick.js" type="text/javascript"></script>
+	<script type="text/javascript" src="home-page.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+
+
+
+
+ <link rel="stylesheet" href="./index_2.css">
+</head>
+<body>
+    
+    <!-- navbar start -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="display: flex; justify-content:space-between;">
+        <a class="navbar-brand" href="#">
+            <img src="./image/logo.png" width="50" alt=""> <span style="font-size: 25px; font-weight: 700; color: #fe9d1b;">rupeeratna</span>
+        </a>
+       
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
+       <div class="col-12 head_spin">
+        <span id="spin"></span><button class="btn appy"><a href="#" style="text-decoration: underline;color:white;">Apply Loan</a></button>
+    </div>
+        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 my-account justify-content-end">
+           
+            <li class="nav-item">
+              <a class="nav-link"  onclick="bars();"><i class="fa fa-bars" style="color: black;font-size:23px;"></i> <span class="for-text">Menu</span></a>
+            </li>
+            </ul>
+      </nav>
+    
+      <div class="for-nav" id="for-nav">
+        <div class="close"><i class="fa fa-close" onclick="closes();" id="close" style="display:none;"></i></div>
+	
+        <div class="nav-logo" style="padding:0px 0px 35px 25px;"><img src="./image/logo.png" width="50" alt=""> rupeeratna</div>
+        <div>
+            <ul type="none" class="for-side">
+           
+				<div class="accordion" id="accordionExample">
+  <div class="card card_1"style="border-bottom:0.3px solid grey;">
+    <div class="card-header" id="headingOne">
+  
+        <li type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         Insurance<i class="fa fa-caret-down"></i>
+        </li>
+ 
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <a href="./Insurance/Termlife.html" class="card-body card_body-1">
+		  Term life Insurance
+      </a>
+		 <a href="./Insurance/Health.html" class="card-body card_body-1">
+        Health Insurance
+      </a>
+    </div>
+  </div>
+				 <div class="card card_2"style="border-bottom:0.3px solid grey;border-radius:0;">
+    <div class="card-header" id="headingTwo">
+    
+        <li type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+         Banking<i class="fa fa-caret-down"></i>
+        </li>
+ 
+    </div>
+
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <a href="./Banking/Saving.html" class="card-body card_body-1">
+		  Saving Account
+      </a>
+		 <a href="./Banking/Demat.html" class="card-body card_body-1">
+        Demat Account
+      </a>
+    </div>
+  </div>
+				</div>
+              
+                <li class="menu_style"style="border-bottom:0.3px solid grey;">
+                    <a href="/Loan">Loan</a>
+                </li>
+                <li class="menu_style"style="border-bottom:0.3px solid grey;">
+                    <a href="/Credit-Card">Credit Cards</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+
+      
+    <!-- navbar end -->
+    <section style="position: relative;">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active for-slider for-1">
+
+              </div>
+              <div class="carousel-item for-slider for-2">
+ 
+                
+              </div>
+              <div class="carousel-item for-slider for-3">
+
+            </div>
+            </div>
+            <a class="carousel-control-prev" id="prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" id="next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <div class="container home_loan">
+
+              <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                  <div class="row four_menu_1 py-0">
+                    <div class="col-6 p-1">
+                      <div class="four_menu p-3">
+                      <div><img src="./image/personal.svg" width="50" alt=""></div>
+                      <h6>Personal Loan</h6>
+                      <p>For all your needs, up to ₹ 50 lakh</p>
+                      <a href="./Loan">Apply now ></a>
+                      </div>
+                    </div>
+                    <div class="col-6 p-1">
+                      <div class="four_menu p-3">
+                      <div><img src="./image/saving.svg" width="50" alt=""></div>
+                      <h6>Saving Account</h6>
+                      <p>Open your account instant online</p>
+                      <a href="./Banking/Saving.html">Apply now ></a>
+                      </div>
+                    </div>
+                      
+                  
+                  </div>
+                  <div class="row py-0 four_menu_2">
+                    <div class="col-6 p-1">
+                      <div class="four_menu p-3">
+                      <div><img src="./image/buisness.svg" width="50" alt=""></div>
+                      <h6>Business Loan</h6>
+                      <p>3% Interest rate business loan no fee charges</p>
+                      <a href="./Loan">Apply now ></a>
+                      </div>
+                    </div>
+                    <div class="col-6 p-1">
+                      <div class="four_menu p-3">
+                      <div><img src="./image/credit.svg" width="50" alt=""></div>
+                      <h6>Credit Card</h6>
+                      <p>Credit card with in 1 week on your home</p>
+                      <a href="./Credit-Card">Apply now ></a>
+                      </div>  
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+
+     </section>
+    
+    <section>
+       
+  <div class="body__inner-wrapper">
+    <!-- <h1><span class="outline__text">Infinite</span> Marquee.</h1> -->
+    <div class="marquee">
+      <div class="marquee__inner-wrap">
+        <div class="marquee__inner">
+          <span>over 6 million<br>registered users</span>
+          <div class="marquee__img"><i class="fa fa-user-o"></i></div>
+          <span>1,100 + location<br>served by us</span>
+          <div class="marquee__img"><i class="fa fa-map-marker"></i></div>
+          <span>offers from<br>23 + partener banks</span>
+          <div class="marquee__img" ><i class="fa fa-handshake-o"></i></div>
+          <span>Rated 4.5/5<br>by customers</span>
+          <div class="marquee__img" ><i class="fa fa-star-o"></i></div>
+          <span aria-hidden="true">online application,<br>quick processing</span>
+          <div aria-hidden="true" class="marquee__img" ><i class="fa fa-clock-o"></i></div>
+          <span aria-hidden="true">transparent<br>terms & conditions</span>
+          <div aria-hidden="true" class="marquee__img" ><i class="fa fa-users"></i></div>
+          <span aria-hidden="true">Dedicated advisor +<br>doorstep service</span>
+          <div aria-hidden="true" class="marquee__img" ><i class="fa fa-users"></i></div>
+          <span aria-hidden="true">attractive<br>voucher</span>
+          <div aria-hidden="true" class="marquee__img" ><i class="fa fa-users"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </section>
+    <section>
+        <div class="feat bg-gray pt-5 pb-5">
+            <div class="container">
+              <div class="row">
+                <div class="section-head col-sm-12">
+                  <h4><span>Why Choose</span> Us?</h4>
+                  <!-- <p>When you choose us, you'll feel the benefit of 10 years' experience of Web Development. Because we know the digital world and we know that how to handle it. With working knowledge of online, SEO and social media.</p> -->
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-university"></i></span>
+                    <h6>Bank Neutral Advice</h6>
+                    <p>We use latest technology for the latest world because we know the demand of peoples.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-mobile"></i></span>
+                    <h6>No Unsolicited Calls</h6>
+                    <p>We are always creative and and always lisen our costomers and we mix these two things and make beast design.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-cogs"></i></span>
+                    <h6>Free Service and Quality Response</h6>
+                    <p>If our customer has any problem and any query we are always happy to help then.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-desktop"></i></span>
+                    <h6>Digital + Doorstep Service</h6>
+                    <p>Everyone wants to live on top of the mountain, but all the happiness and growth occurs while you're climbing it</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-home"></i></span>
+                    <h6>Delivery in 1100+ Cities</h6>
+                    <p>Holding back technology to preserve broken business models is like allowing blacksmiths to veto the internal combustion engine in order to protect their horseshoes.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-percent"></i></span>
+                    <h6>Attractive Voucher</h6>
+                    <p>Love is a special word, and I use it only when I mean it. You say the word too much and it becomes cheap.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+    </section>
+
+    <section class="pt-3 pb-5" style="box-shadow:0px 0px 5px rgb(0 0 0 / 20%);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-12 pt-2">
+                    <h1>Current Interest Rate</h1>
+                    <table>
+                       <tr>
+                        <th>Product Type</th>
+                        <th>Best Rate %*</th>
+                       </tr>
+                       <tr>
+                        <td>Home Loan</td>
+                        <td>8.00%</td>
+                       </tr>
+                       <tr>
+                        <td>Loan Against Property</td>
+                        <td>9.20%</td>
+                       </tr>
+                       <tr>
+                        <td>Business Loan</td>
+                        <td>14.00%</td>
+                       </tr>
+                       <tr>
+                        <td>Personal Loan</td>
+                        <td>10.49%</td>
+                       </tr>
+                       <tr>
+                        <td>Professional Loan</td>
+                        <td>13.00%</td>
+                       </tr>
+                       <tr>
+                        <td>Two Wheeler Loan</td>
+                        <td>11.60%</td>
+                       </tr>
+                       <tr>
+                        <td>Doctor Loan</td>
+                        <td>10.50%</td>
+                       </tr>
+                       <tr>
+                        <td>Savings Loan</td>
+                        <td>5.50%</td>
+                       </tr>
+                       <tr>
+                        <td>Fixed Deposit</td>
+                        <td>7.05%</td>
+                       </tr>
+                       <tr>
+                        <td>RD</td>
+                        <td>8.50%</td>
+                       </tr>
+                    </table>
+                </div>
+                
+                <div class="col-lg-7 col-sm-12 pt-2">
+
+                    <h1>Illustration of the total cost of a Personal Loan</h1>
+                    <div class="row tab px-3">
+                        <div class="col-12 table_slide_1">
+                            <ul class="table_side" list-style-type="circle">
+                                <li>Total amount borrowed: ₹1,00,000</li>
+                                <li>Time period: 3 Months to 72 Months</li>
+                                <li>Interest Rate: 10.49% to 36.00%</li>
+                                <li>Processing Fee Payable to: Upto ₹ 3,500</li>
+                                <li>Total Monthly Cost - From ₹ 1,877 for 72 Months ₹ 1,00,000 loan at 49.10% (Lowest rate, longest time period) to ₹ 35,353 for 3 Months ₹ laon at 36.00%(highest rate, shortest time period). this is inclusive of principal repayment.</li>
+                                <li>Annual Percentage Rate (APR) of charge including all applicable fees: 11.07% to 36.58%</li>
+                                <li>Total cost payable over loan tenure: ₹ 5,253 for 3 Months loan to ₹ 38,672 for 72 Months loan</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+	<section class="home-testimonial py-5">
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center testimonial-pos">
+            <div class="col-md-12 d-flex justify-content-center">
+                <h2>Reviews</h2>
+            </div>
+        </div>
+        <section class="home-testimonial-bottom">
+            <div class="container testimonial-inner">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item ">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg" alt=""></div>
+                                <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                <div class="link-position d-flex justify-content-center">Student</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item ">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                                <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                <div class="link-position d-flex justify-content-center">Student</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item ">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">&ldquo;At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.&rdquo;</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                                <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                <div class="link-position d-flex justify-content-center">Student</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+</section>
+ <section class="py-5" style="position:relative;z-index:99999!important; background-color: #ececec;">
+  <div class="container">
+  <div class="row pb-2">
+    <div class="col-12 social_links pb-2">
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-youtube"></i></a>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-sm-12 footer_logo py-3">
+      <img src="./image/logo.png" width="50" alt=""> <span style="font-size: 25px; font-weight: 700; color: #fe9d1b;">rupeeratna</span>
+      
+      <p>
+
+      </p>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 footer_menu py-3">
+     
+      <ul>
+        <h3 style="color: #fe9d1b;">Links</h3>
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="">Term life insurance</a>
+        </li>
+        <li>
+          <a href="">Health insurance</a>
+        </li>
+        <li>
+          <a href="">Credit Card</a>
+        </li>
+        <li>
+          <a href="">Loan</a>
+        </li>
+        <li>
+          <a href="">Saving account</a>
+        </li>
+        <li>
+          <a href="">Demat account</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 footer_menu py-3">
+      <ul>
+        <h3 style="color: #fe9d1b;">Other Links</h3>
+        <li>
+          <a href="">Apply for Credit card</a>
+        </li>
+        <li>
+          <a href="">3% interest at personal laon</a>
+        </li>
+        <li>
+          <a href="">offers for Credit Card</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12 footer_menu py-3">
+   
+      <ul>
+        <h3 style="color:#fe9d1b;">Contact</h3>
+        <li>
+          <a href=""><i class="fa fa-phone"></i> 74387388474</a>
+        </li>
+        <li>
+          <a href=""><i class="fa fa-envelope"></i> gmail@gmail.com</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+ </section>
+
+<div class="scrol">
+    <span><a href="./Loan" id="scrol"></a></span>
+</div>
+	<script>
+	
+	</script>
+
+</body>
+</html>

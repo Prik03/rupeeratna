@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loan - rupeeratna</title>
+  <link rel="icon" href="../image/logo.png" type="image/gif" sizes="20x20">
+  <link rel="stylesheet" href="../index.css">
+	
+	<script src='../home-page.js'></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../index_2.css">
+	<style>
+		h1:after,h2:after,h3:after{
+		content:none;
+		}
+	</style>
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light" style="display: flex; justify-content:space-between;">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../image/logo.png" width="50" alt=""> <span style="font-size: 25px; font-weight: 700; color: #fe9d1b;">rupeeratna</span>
+        </a>
+       
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
+       <div class="col-12 head_spin">
+        <span id="spin"></span><button class="btn appy"><a href="#" style="text-decoration: underline;color:white;">Apply Loan</a></button>
+    </div>
+        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 my-account justify-content-end">
+           
+            <li class="nav-item">
+              <a class="nav-link"  onclick="bars();"><i class="fa fa-bars" style="color: black;font-size:23px;"></i> <span class="for-text">Menu</span></a>
+            </li>
+            </ul>
+      </nav>
+    
+      <div class="for-nav" id="for-nav">
+        <div class="close"><i class="fa fa-close" onclick="closes();" id="close" style="display:none;"></i></div>
+	
+        <div class="nav-logo" style="padding:0px 0px 35px 25px;"><a href='../index.html' style='text-decoration:none;color:#fe9d1b;'><img src="../image/logo.png" width="50" alt=""> rupeeratna</div></a>
+			<div>
+            <ul type="none" class="for-side">
+           
+				<div class="accordion" id="accordionExample">
+  <div class="card card_1"style="border-bottom:0.3px solid grey;">
+    <div class="card-header" id="headingOne">
+  
+        <li type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         Insurance<i class="fa fa-caret-down"></i>
+        </li>
+ 
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <a href="../Insurance/Termlife.html" class="card-body card_body-1">
+		  Term life Insurance
+      </a>
+		 <a href="../Insurance/Health.html" class="card-body card_body-1">
+        Health Insurance
+      </a>
+    </div>
+  </div>
+				 <div class="card card_2"style="border-bottom:0.3px solid grey;border-radius:0;">
+    <div class="card-header" id="headingTwo">
+    
+        <li type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+         Banking<i class="fa fa-caret-down"></i>
+        </li>
+ 
+    </div>
+
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <a href="../Banking/Saving.html" class="card-body card_body-1">
+		  Saving Account
+      </a>
+		 <a href="../Banking/Demat.html" class="card-body card_body-1">
+        Demat Account
+      </a>
+    </div>
+  </div>
+				</div>
+              
+                <li class="menu_style"style="border-bottom:0.3px solid grey;">
+                    <a href="#">Loan</a>
+                </li>
+                <li class="menu_style"style="border-bottom:0.3px solid grey;">
+                    <a href="../Credit-Card">Credit Cards</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+
+ 
+
+    <section class="py-5 form-side-ob">
+      <div class="container-fluid">
+        <div class="row d-flex flex-wrap">
+          <div class="col-lg-7 col-md-7 col-sm-12 form-img">
+            <img src="../image/form-side-2.jpg" width="100" class="form_img" alt="">
+            <div class="container image_obj-1">
+            <div class="row">
+              <div class="col-lg-9 col-md-12 image-obj py-4">
+                <p>Fulfil all your wishes, stress-free</p>
+                <h1>with quick and easy Personal Loan<br>From rupeeratna</h1>
+              </div>
+            </div>
+            </div>
+			</div>
+          <div class="col-lg-5 col-md-5 col-sm-12 for-padding">
+           
+            <form class="second_form" action="" style="width: 100%;">
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="text" placeholder="Enter Name">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design-2" style="display: flex;">
+                  <div class="radio">
+                    <input id="radio-1" name="radio" type="radio" checked>
+                    <label for="radio-1" class="radio-label">Male</label>
+                  </div>
+                
+                  <div class="radio">
+                    <input id="radio-2" name="radio" type="radio">
+                    <label  for="radio-2" class="radio-label">Female</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="text" placeholder="DOB as Your PAN Card">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <select name=""  id="long">
+                    <option value="">Employment Type</option>
+                    <option value="Salaried">Salaried</option>
+                    <option value="Self Employed">Self Employed</option>
+                    <option value="Self Employed(Dr./CA)">Self Employed(Dr./CA)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="varchar" placeholder="Mobile no.">             
+                   </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="email" placeholder="Email Address">
+                </div>
+              </div>
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="text" placeholder="Current Company Name">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="text" placeholder="Monthly in-hand Salary">
+                </div>
+              </div>
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="int" placeholder="Current Residence Pincode">             
+                   </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="varchar" placeholder="10 Digit Pan Card Number">
+                </div>
+              </div>
+              <div class="row d-flex justify-content-end">
+                <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-end">
+                  <button class="btn Prik-btn">Get Qoute</button>
+                </div>
+              </div>
+            </form>
+          </div>
+			
+          </div>
+	
+			</div>
+      </div>
+    </section>
+ 
+  <section class="Loan py-4 px-3">
+    <div class="container">
+      <div class="row">
+		<!--  <div class="col-12 text-center mb-5">
+			  <h1>Loan</h1>
+		  </div>-->
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <h2><span>1. </span>What is a LOAN</h2>
+          <p>A loan is when a person or business allows you to use their asset(s), particularly money. Bank loans are a
+            typical sort of loan; for instance, you can ask a bank for money to buy a car. Banks will ask for proof of
+            income so they can be confident you can pay back the loan in full. They will also check your credit history
+            to make sure you have a history of making payments to other creditors.
+            The loan agreement (contract) between you and the bank will state specifically that they will charge
+            interest on the sum they have loaned you and that they anticipate regular payments from you (typically in
+            monthly installments or EMIs).
+          </p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+      
+ <div class="col-12 d-flex justify-content-center">
+          <h1 class="pt-5 pb-3 types" style="text-align: center;">Types of Loan(s)</h1>
+        </div>
+      </div>
+      <div class="row pt-5 pb-3"  style="flex-wrap: wrap-reverse;">
+		   
+        <div class="col-lg-12 col-md-12 col-sm-12">
+
+          <h2>PERSONAL LOAN</h2>
+
+
+          <p>
+            It is a loan kind that can be obtained with the least amount of paperwork and with no collateral or
+            security. Since the risk is on the lender or bank, these loans are often for small sums.
+          </p>
+        </div>
+         
+        
+      </div>
+      <div class="row pt-2">
+        <div class="col-12">
+          <h2>FREQUENTLY ASKED QUESTIONS</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+
+        <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          What is the loan amount that can be sanctioned?
+        </button>
+      </h2>
+    </div>
+
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+     You can get a Personal Loan up to a certain amount. Some of the factors that are considered when deciding a loan amount are:
+		  <ul>
+			  <li>Your requirement and eligibility.</li>
+			  <li>Your yearly income.</li>
+			  <li>Your repayment capacity.</li>
+		  </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          What is the tenure for which I can avail personal loan?
+        </button>
+      </h2>
+    </div>
+
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        You can take a personal loan ranging from 12 months to 72 months.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingfour">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+          Who can become my co-applicant?
+        </button>
+      </h2>
+    </div>
+
+            <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+      <div class="card-body">
+        Your spouse or parents can become the co-applicant or guarantor for your personal loan.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingfive">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+          Are there other charges besides interest rates?
+        </button>
+      </h2>
+    </div>
+
+            <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+      <div class="card-body">
+        Yes, there are also other fees. Lenders charge processing and documentation fees in addition to the personal loan. Prior to agreeing on T&C, you must read the documents carefully. Furthermore, interest payments are subject to GST fees as well.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingsix">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+          Can I foreclose a personal loan?
+        </button>
+      </h2>
+    </div>
+
+            <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+      <div class="card-body">
+        Generally, you can pre-pay the loan amount after six months of disbursement. In some cases you can choose to pre-pay earlier as well, depending upon your capacity. 
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingseven">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+          Can I cancel the loan?
+        </button>
+      </h2>
+    </div>
+
+            <div id="collapseseven" class="collapse" aria-labelledby="headingseven" data-parent="#accordionExample">
+      <div class="card-body">
+        You can cancel the loan within 15 days of disbursement if you are not satisfied with the offered terms & conditions with applicable cancellation charges.
+      </div>
+    </div>
+  </div>
+</div>
+			</div>
+      </div>
+	  </div>
+      <hr>
+      <div class="row">
+        <div class="col-12">
+          <h2>BUSINESS LOAN</h2>
+        </div>
+        
+        <div class="col-lg-12 .col-md-12 .col-sm-12">
+            <p>
+              Business loans are a specific kind of loan that guarantee a steady flow of capital for all business types in order to maintain growth, momentum, and business expansion. It is the kind of unsecured loan that enables the borrower to take advantage of its advantages without pledging any asset or commodity as security or collateral.
+            </p>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-12">
+            <h2>FREQUENTLY ASKED QUESTIONS</h2>
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+
+          <div class="accordion" id="accordionExample12">
+            <div class="card">
+              <div class="card-header" id="headingeight">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                    How much loan amount can I borrow from a Business Loan? 
+                  </button>
+                </h2>
+              </div>
+          
+                      <div id="collapseeight" class="collapse" aria-labelledby="headingeight" data-parent="#accordionExample12">
+                <div class="card-body">
+                  You can apply for a business loan of any amount depending upon how old your business is and your income tax return.
+                </div>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-header" id="headingnine">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                    For how many months can I borrow business loan?
+                  </button>
+                </h2>
+              </div>
+          
+                      <div id="collapsenine" class="collapse" aria-labelledby="headingnine" data-parent="#accordionExample12">
+                <div class="card-body">
+                  You can get a business loan with a duration of up to 60 months.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingten">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapseten" aria-expanded="false" aria-controls="collapseten">
+                    Is there any processing fee for business loan?            
+                        </button>
+                </h2>
+              </div>
+          
+                      <div id="collapseten" class="collapse" aria-labelledby="headingten" data-parent="#accordionExample12">
+                <div class="card-body">
+                  A processing fee starting from 2% is charged on the loan amount (plus GST at the prevailing rate) is required to be paid.                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingeleven">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapseeleven" aria-expanded="false" aria-controls="collapseeleven">
+                    What security do I need to provide to obtain a business loan?
+                  </button>
+                </h2>
+              </div>
+          
+                      <div id="collapseeleven" class="collapse" aria-labelledby="headingeleven" data-parent="#accordionExample12">
+                <div class="card-body">
+                  These business loans are without security. However, some do demand collateral, including private investments in bonds, mutual funds, and stocks. Other assets such as gold can be pledged too.
+                </div>
+              </div>
+            </div>
+            
+           
+          </div>
+    </div>
+		</div>
+	  </div>
+	
+  </section>
+	<section class="ad" style="max-width:40%;position:absolute;right:0;top:800px;">
+		<div class='container'>
+			<div class='row'>
+				<div class="col-12" style="display:flex;justify-content:flex-end;">
+				<img src='../image/sidebanner.jpg'style="width:80%;">
+				</div>
+			</div>
+		</div>
+	</section>
+ <section class="py-5" style="position:relative;z-index:99999!important; background-color: #ececec;">
+  <div class="container">
+  <div class="row pb-2">
+    <div class="col-12 social_links pb-2">
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-youtube"></i></a>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-sm-12 footer_logo py-3">
+      <img src="../image/logo.png" width="50" alt=""> <span style="font-size: 25px; font-weight: 700; color: #fe9d1b;">rupeeratna</span>
+      
+      <p>
+
+      </p>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 footer_menu py-3">
+     
+      <ul>
+        <h3 style="color: #fe9d1b;">Links</h3>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="../Insurance/Termlife.html">Term life insurance</a>
+        </li>
+        <li>
+          <a href="../Insurance/Health.html">Health insurance</a>
+        </li>
+        <li>
+          <a href="../Credit-Card">Credit Card</a>
+        </li>
+        <li>
+          <a href="#">Loan</a>
+        </li>
+        <li>
+          <a href="../Banking/Saving.html">Saving account</a>
+        </li>
+        <li>
+          <a href="../Banking/Demat.html">Demat account</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 footer_menu py-3">
+      <ul>
+        <h3 style="color: #fe9d1b;">Other Links</h3>
+        <li>
+          <a href="../Credit-Card">Apply for Credit card</a>
+        </li>
+        <li>
+          <a href="">3% interest at personal laon</a>
+        </li>
+        <li>
+          <a href="../Credit-Card">offers for Credit Card</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12 footer_menu py-3">
+   
+      <ul>
+        <h3 style="color:#fe9d1b;">Contact</h3>
+        <li>
+          <a href=""><i class="fa fa-phone"></i> 74387388474</a>
+        </li>
+        <li>
+          <a href=""><i class="fa fa-envelope"></i> gmail@gmail.com</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+ </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  
+  <script src="../js/form.js"></script>
+
+
+</body>
+
+</html>

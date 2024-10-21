@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saving Account - rupeeratna</title>
+  <link rel="icon" href="../image/logo.png" type="image/gif" sizes="20x20">
+  <link rel="stylesheet" href="../index.css">
+	<script src='../home-page.js'></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../index_2.css">
+	<style>
+		h1:after,h2:after,h3:after{
+		content:none;
+		}
+	</style>
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light" style="display: flex; justify-content:space-between;">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../image/logo.png" width="50" alt=""> <span style="font-size: 25px; font-weight: 700; color: #fe9d1b;">rupeeratna</span>
+        </a>
+       
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
+       <div class="col-12 head_spin">
+        <span id="spin"></span><button class="btn appy"><a href="#" style="text-decoration: underline;color:white;">Apply Loan</a></button>
+    </div>
+        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 my-account justify-content-end">
+           
+            <li class="nav-item">
+              <a class="nav-link"  onclick="bars();"><i class="fa fa-bars" style="color: black;font-size:23px;"></i> <span class="for-text">Menu</span></a>
+            </li>
+            </ul>
+      </nav>
+    
+      <div class="for-nav" id="for-nav">
+        <div class="close"><i class="fa fa-close" onclick="closes();" id="close" style="display:none;"></i></div>
+	
+        <div class="nav-logo" style="padding:0px 0px 35px 25px;"><a href='../index.html' style='text-decoration:none;color:#fe9d1b;'><img src="../image/logo.png" width="50" alt=""> rupeeratna</div></a>
+			<div>
+            <ul type="none" class="for-side">
+           
+				<div class="accordion" id="accordionExample">
+  <div class="card card_1"style="border-bottom:0.3px solid grey;">
+    <div class="card-header" id="headingOne">
+  
+        <li type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         Insurance<i class="fa fa-caret-down"></i>
+        </li>
+ 
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <a href="./Insurance/Termlife.html" class="card-body card_body-1">
+		  Term life Insurance
+      </a>
+		 <a href="./Insurance/Health.html" class="card-body card_body-1">
+        Health Insurance
+      </a>
+    </div>
+  </div>
+				 <div class="card card_2"style="border-bottom:0.3px solid grey;border-radius:0;">
+    <div class="card-header" id="headingTwo">
+    
+        <li type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+         Banking<i class="fa fa-caret-down"></i>
+        </li>
+ 
+    </div>
+
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <a href="./Banking/Saving.html" class="card-body card_body-1">
+		  Saving Account
+      </a>
+		 <a href="./Banking/Demat.html" class="card-body card_body-1">
+        Demat Account
+      </a>
+    </div>
+  </div>
+				</div>
+              
+                <li class="menu_style"style="border-bottom:0.3px solid grey;">
+                    <a href="/Loan">Loan</a>
+                </li>
+                <li class="menu_style"style="border-bottom:0.3px solid grey;">
+                    <a href="/Credit-Card">Credit Cards</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+
+
+
+ 
+
+    <section class="py-5 form-side-ob">
+      <div class="container-fluid">
+        <div class="row d-flex flex-wrap">
+          <div class="col-lg-7 col-md-7 col-sm-12 form-img">
+        <img src="../image/form-side-2.jpg" width="100" class="form_img" alt="">			   
+			  <div class="container image_obj-1">
+            <div class="row">
+              <div class="col-lg-9 col-md-12 image-obj py-4">
+                <p>Fulfil all your wishes, stress-free</p>
+                <h1>with quick and easy Personal Loan<br>From rupeeratna</h1>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-12 for-padding">
+           
+            <form class="second_form" action="" style="width: 100%;">
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="text" placeholder="Enter Name">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design-2" style="display: flex;">
+                  <div class="radio">
+                    <input id="radio-1" name="radio" type="radio" checked>
+                    <label for="radio-1" class="radio-label">Male</label>
+                  </div>
+                
+                  <div class="radio">
+                    <input id="radio-2" name="radio" type="radio">
+                    <label  for="radio-2" class="radio-label">Female</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="text" placeholder="DOB as Your PAN Card">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <select name=""  id="long">
+                    <option value="">Employment Type</option>
+                    <option value="Salaried">Salaried</option>
+                    <option value="Self Employed">Self Employed</option>
+                    <option value="Self Employed(Dr./CA)">Self Employed(Dr./CA)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="varchar" placeholder="Mobile no.">             
+                   </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="email" placeholder="Email Address">
+                </div>
+              </div>
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="text" placeholder="Current Company Name">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="text" placeholder="Monthly in-hand Salary">
+                </div>
+              </div>
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="int" placeholder="Current Residence Pincode">             
+                   </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="varchar" placeholder="10 Digit Pan Card Number">
+                </div>
+              </div>
+              <div class="row d-flex justify-content-end">
+                <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-end">
+                  <button class="btn Prik-btn">Get Qoute</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          </div>
+      </div>
+    </section>
+
+
+	  
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <h2><span>1. </span>What is a Savings Account?</h2>
+          <p>The most typical kind of account is this one. It's a kind of account that enables you to open a bank account in return for a modest amount of interest. It enables you to keep your money safe with the bank and makes it simple to withdraw funds when necessary. Then, interest is computed using a typical balance that has been maintained.
+
+          </p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="container">
+     
+     
+      <div class="row pt-2">
+        <div class="col-12">
+          <h2>FREQUENTLY ASKED QUESTIONS</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+
+        <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link Prik-col" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				  How can one open a Savings Account online?
+               </button>
+      </h2>
+    </div>
+
+    
+         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+			 Opening a savings account online is a simple procedure. The KYC form can be easily completed after downloading the app of one's preferred bank.
+        </div>
+      </div>
+			</div>
+       <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				  What are the different types of Savings Account?
+
+               </button>
+      </h2>
+    </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+			  There are several of them, including regular savings accounts, salary accounts, women's savings accounts, and senior citizens savings accounts. One can readily choose from any of these accounts based on their eligibility and needs.</p>
+        </div>
+      </div>
+			</div>
+    <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				  What is the minimum balance requirement in a Savings Account?
+              </button>
+      </h2>
+    </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+			  Every bank has a different minimum balance requirement. Some also offer zero balance account facility as per your eligibility.
+			  </div>
+        </div>
+    </div>
+   <div class="card">
+    <div class="card-header" id="headingfour">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+				What is the interest rate on a Savings Account?
+               </button>
+      </h2>
+    </div>
+        <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+      <div class="card-body">
+			Banks in India generally offer interest rates of anywhere between 3.5% to 7% on Savings Accounts.
+      </div>
+  </div>
+		  </div>
+ <div class="card">
+    <div class="card-header" id="headingfive">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+			  How can one transfer money from a Savings Account?
+          </button>
+      </h2>
+    </div>
+        <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+      <div class="card-body">
+		 With the advancement of technology and with the arrival of internet facilities, one can now easily transfer money to another account with the help of a mobile app. Some also prefer to go to the bank and transfer money by filling the bank details of the receiver on a form.
+			</div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header" id="headingsix">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+			What are the documents required to open a Savings Account online?
+         </button>
+      </h2>
+    </div>
+	<div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+      <div class="card-body">
+    <b>The normal paperwork that each Indian bank requires for opening a savings account is listed below:</b>
+    <ul>
+      <li>ID Verification (Pan card, Aadhar Card, passport etc.)</li>
+      <li>Address Verification (driver's licence, passport, aadhar card, etc.)</li>
+      <li>PAN card Form 16, a declaration indicating TDS has been taken out of your pay and is a document supplied by the applicant's employer. If the applicant does not already possess a PAN card, this is required.</li>
+      <li>two most recent passport-sized photos</li>
+    </ul>
+  </div>
+</div>
+			</div>
+		  </div>
+		</div>
+<div class="row">
+  <div class="col-12">
+    <p><b>Through the use of an active cellphone number, a Pan Card, and AADHAAR, online account opening is simple.</b></p>
+  </div>
+</div>
+      
+    </div>
+
+  </section>
+
+  <section class="py-5" style="position:relative;z-index:99999!important; background-color: #ececec;">
+  <div class="container">
+  <div class="row pb-2">
+    <div class="col-12 social_links pb-2">
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-youtube"></i></a>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-sm-12 footer_logo py-3">
+      <img src="../image/logo.png" width="50" alt=""> <span style="font-size: 25px; font-weight: 700; color: #fe9d1b;">rupeeratna</span>
+      
+      <p>
+
+      </p>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 footer_menu py-3">
+     
+      <ul>
+        <h3 style="color: #fe9d1b;">Links</h3>
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="">Term life insurance</a>
+        </li>
+        <li>
+          <a href="">Health insurance</a>
+        </li>
+        <li>
+          <a href="">Credit Card</a>
+        </li>
+        <li>
+          <a href="">Loan</a>
+        </li>
+        <li>
+          <a href="">Saving account</a>
+        </li>
+        <li>
+          <a href="">Demat account</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 footer_menu py-3">
+      <ul>
+        <h3 style="color: #fe9d1b;">Other Links</h3>
+        <li>
+          <a href="">Apply for Credit card</a>
+        </li>
+        <li>
+          <a href="">3% interest at personal laon</a>
+        </li>
+        <li>
+          <a href="">offers for Credit Card</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12 footer_menu py-3">
+   
+      <ul>
+        <h3 style="color:#fe9d1b;">Contact</h3>
+        <li>
+          <a href=""><i class="fa fa-phone"></i> 74387388474</a>
+        </li>
+        <li>
+          <a href=""><i class="fa fa-envelope"></i> gmail@gmail.com</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+ </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="../js/form.js"></script>
+
+
+</body>
+
+</html>

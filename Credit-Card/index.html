@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saving Account - rupeeratna</title>
+  <link rel="icon" href="../image/logo.png" type="image/gif" sizes="20x20">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="../index_2.css">
+	<script src="../home-page.js"></script>
+	<style>
+		h1:after,h2:after,h3:after{
+		content:none!important;
+		}
+		
+
+	</style>
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light" style="display: flex; justify-content:space-between;">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../image/logo.png" width="50" alt=""> <span style="font-size: 25px; font-weight: 700; color: #fe9d1b;">rupeeratna</span>
+        </a>
+       
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
+       <div class="col-12 head_spin">
+        <span id="spin"></span><button class="btn appy"><a href="#" style="text-decoration: underline;color:white;">Apply Loan</a></button>
+    </div>
+        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 my-account justify-content-end">
+           
+            <li class="nav-item">
+              <a class="nav-link"  onclick="bars();"><i class="fa fa-bars" style="color: black;font-size:23px;"></i> <span class="for-text">Menu</span></a>
+            </li>
+            </ul>
+      </nav>
+    
+      <div class="for-nav" id="for-nav">
+        <div class="close"><i class="fa fa-close" onclick="closes();" id="close" style="display:none;"></i></div>
+	
+        <div class="nav-logo" style="padding:0px 0px 35px 25px;"><a href='../index.html' style='text-decoration:none;color:#fe9d1b;'><img src="../image/logo.png" width="50" alt=""> rupeeratna</div></a>
+			<div>
+            <ul type="none" class="for-side">
+           
+				<div class="accordion" id="accordionExample">
+  <div class="card card_1"style="border-bottom:0.3px solid grey;">
+    <div class="card-header" id="headingOne">
+  
+        <li type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         Insurance<i class="fa fa-caret-down"></i>
+        </li>
+ 
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <a href="../Insurance/Termlife.html" class="card-body card_body-1">
+		  Term life Insurance
+      </a>
+		 <a href="../Insurance/Health.html" class="card-body card_body-1">
+        Health Insurance
+      </a>
+    </div>
+  </div>
+				 <div class="card card_2"style="border-bottom:0.3px solid grey;border-radius:0;">
+    <div class="card-header" id="headingTwo">
+    
+        <li type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+         Banking<i class="fa fa-caret-down"></i>
+        </li>
+ 
+    </div>
+
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <a href="../Banking/Saving.html" class="card-body card_body-1">
+		  Saving Account
+      </a>
+		 <a href="../Banking/Demat.html" class="card-body card_body-1">
+        Demat Account
+      </a>
+    </div>
+  </div>
+				</div>
+              
+                <li class="menu_style"style="border-bottom:0.3px solid grey;">
+                    <a href="../Loan">Loan</a>
+                </li>
+                <li class="menu_style"style="border-bottom:0.3px solid grey;">
+                    <a href="#">Credit Cards</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+
+
+
+
+ 
+
+     <section class="py-5 form-side-ob">
+      <div class="container-fluid">
+        <div class="row d-flex flex-wrap">
+          <div class="col-lg-7 col-md-7 col-sm-12 form-img">
+        <img src="../image/form-side-1.jpg" width="100" class="form_img" alt="">			   
+			  <div class="container image_obj-1">
+            <div class="row">
+              <div class="col-lg-9 col-md-12 image-obj py-4">
+                <p>Fulfil all your wishes, stress-free</p>
+                <h1>with quick and easy Personal Loan<br>From rupeeratna</h1>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 for-padding">
+           
+            <form class="second_form" action="" style="width: 100%;">
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="text" placeholder="Enter Name">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design-2" style="display: flex;">
+                  <div class="radio">
+                    <input id="radio-1" name="radio" type="radio" checked>
+                    <label for="radio-1" class="radio-label">Male</label>
+                  </div>
+                
+                  <div class="radio">
+                    <input id="radio-2" name="radio" type="radio">
+                    <label  for="radio-2" class="radio-label">Female</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="text" placeholder="DOB as Your PAN Card">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <select name=""  id="long">
+                    <option value="">Employment Type</option>
+                    <option value="Salaried">Salaried</option>
+                    <option value="Self Employed">Self Employed</option>
+                    <option value="Self Employed(Dr./CA)">Self Employed(Dr./CA)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="varchar" placeholder="Mobile no.">             
+                   </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="email" placeholder="Email Address">
+                </div>
+              </div>
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="text" placeholder="Current Company Name">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="text" placeholder="Monthly in-hand Salary">
+                </div>
+              </div>
+              <div class="row cascad">
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="int" placeholder="Current Residence Pincode">             
+                   </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 design">
+                  <input type="varchar" placeholder="10 Digit Pan Card Number">
+                </div>
+              </div>
+              <div class="row d-flex justify-content-end">
+                <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-end">
+                  <button class="btn Prik-btn">Get Qoute</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          </div>
+      </div>
+    </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <h2><span>1. </span>What is a Credit Card?</h2>
+          <h4><b>How do credit cards work?</b></h4>
+          <p>A credit card is a type of payment card that allows customers to pay a merchant for products and services. It provides the cardholder with a line of credit from which they can borrow money to pay for purchases or receive a cash advance. Consumer and business credit cards are the two types of credit cards. Most cards are made of plastic, but some have gemstones embedded in them.
+
+          </p>
+        </div>
+     
+      </div>
+    </div>
+    <div class="container">
+     
+     
+      <div class="row pt-2">
+        <div class="col-12">
+          <h2>FREQUENTLY ASKED QUESTIONS</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+
+         <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link Prik-col" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				  What is the difference between a credit card and a debit card?
+             </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+         With a debit card, you can take money out of your bank account without any intermediaries. A credit card allows you to make payments and cash withdrawals and is comparable to a short-term loan from the card provider. Your credit card usage is tallied into a single statement at the conclusion of the billing cycle rather than being repaid on a per-use basis.
+		  
+		   </div>
+    </div>
+  </div>
+       <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				  What is a secured credit card?
+
+              </button>
+      </h2>
+    </div>
+		   
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+			  Similar to conventional credit cards, secured credit cards operate in the same way. The main distinction between a regular credit card and a secured credit card is that the latter is granted in order to lower risk for card issuers and is secured by collateral, such as fixed deposits. People with no credit history or bad credit history can benefit from secured credit cards. As a result, it is one of the simplest ways to raise your credit score while still making use of credit card benefits. Credit card issuers take less risk by issuing secured credit cards in exchange for a predetermined deposit. The credit card issuer may remove the amount from your deposit if you don't make your payment on time.
+		  
+        </div>
+    </div>
+  </div>
+      <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				  What are the different types of credit cards?
+             </button>
+      </h2>
+    </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+		  <b>Credit cards can be broadly divided into two categories:</b>
+          <ul>
+            <li><b>Standard Credit Cards –</b> Plain credit cards with basic features and no annual fees.</li>
+            <li><b>Specialized Credit Cards –</b> Credit cards are made specifically to satisfy the cardholder's unique needs. These cards grant a variety of benefits for travel, dining, and other activities.</li>
+          </ul>
+        </div>
+    </div>
+</div>
+   <div class="card">
+    <div class="card-header" id="headingfour">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+				However, credit cards can also be classified as follows:
+           </button>
+      </h2>
+    </div>
+	   
+	     <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+      <div class="card-body">
+<ul>
+  <li><b>General Cards –</b> Credit cards offer basic features and have relatively low annual fees. These cards are ideal for everyday usage.</li>
+  <li><b>Reward Points Cards –</b> Every purchase made using a credit card earns the cardholder reward points. A cardholder earns more reward points the more they spend. Gift cards, coupons, and other items can be obtained by exchanging these reward points.</li>
+  <li><b>Cash-back Credit Cards –</b> Cash-back credit cards provide cash in contrast to reward credit cards, which provide reward points. When a cardholder uses a cash-back credit card, a certain proportion of their purchases are credited back to their account. Periodically, the card account is adjusted to reflect the total cash back earned.
+  </li>
+</ul>
+      </div>
+  </div>
+			 </div>
+ <div class="card">
+    <div class="card-header" id="headingfive">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+			  How long does it take to apply for and receive a Credit Card?
+         </button>
+      </h2>
+    </div>
+	 <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+      <div class="card-body">
+      Applying for a credit card online takes less than two minutes at Paisabazaar.com. The card issuer will get in touch with you after you finish and submit the online application to ask for the supporting paperwork. Following receipt of your properly filled application form by the bank, your application will be processed within two weeks. If all of your paperwork is in order, you should receive your new credit card within 7 working days of the bank accepting your application and finishing its due diligence. By SMS or email, the bank will promptly update you on the status of your credit card application.
+    </div>
+</div>
+			 </div>
+ <div class="card">
+    <div class="card-header" id="headingsix">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+			How to know if I am eligible for a credit card?
+        </button>
+      </h2>
+    </div>
+	 
+    <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+      <div class="card-body">
+		The eligibility requirements listed on the bank's website will let you know if you meet the requirements for a credit card. To find out if you qualify, you can also get in touch with the credit card companies' customer service division.
+	
+  </div>
+</div>
+			 </div>
+ <div class="card">
+    <div class="card-header" id="headingseven">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed Prik-col" type="button" data-toggle="collapse" data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+    What does a credit limit mean? How can I get a higher limit on my card?
+   </button>
+      </h2>
+    </div>
+	 
+  <div id="collapseseven" class="collapse" aria-labelledby="headingseven" data-parent="#accordionExample">
+      <div class="card-body">
+	 The maximum credit line granted to you on your credit card is known as a credit limit. The repayment capacity, CIBIL credit report, applicant's profile, and other elements all play a role in determining the credit limit. Nevertheless, you might ask your supplier for an increase in your credit limit. After you submit the request, your provider may require more supporting documentation or carefully review it in light of your financial situation, credit score, and other considerations. Your credit limit will be raised if you are determined to be eligible. Additionally, your provider might boost your annual credit limit if you have paid your credit card bill in whole and on time.
+ </div>
+</div>
+			 </div>
+    </div>
+		  </div>
+		</div>
+	  </div>
+  </section>
+
+  <section class="py-5" style="position:relative;z-index:99999!important; background-color: #ececec;">
+  <div class="container">
+  <div class="row pb-2">
+    <div class="col-12 social_links pb-2">
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-youtube"></i></a>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-sm-12 footer_logo py-3">
+      <img src="../image/logo.png" width="50" alt=""> <span style="font-size: 25px; font-weight: 700; color: #fe9d1b;">rupeeratna</span>
+      
+      <p>
+
+      </p>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 footer_menu py-3">
+     
+      <ul>
+        <h3 style="color: #fe9d1b;">Links</h3>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="../Insurance/Termlife.html">Term life insurance</a>
+        </li>
+        <li>
+          <a href="../Insurance/Health.html">Health insurance</a>
+        </li>
+        <li>
+          <a href="#">Credit Card</a>
+        </li>
+        <li>
+          <a href="../Loan">Loan</a>
+        </li>
+        <li>
+          <a href="../Banking/Saving.html">Saving account</a>
+        </li>
+        <li>
+          <a href="../Banking/Demat.html">Demat account</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 footer_menu py-3">
+      <ul>
+        <h3 style="color: #fe9d1b;">Other Links</h3>
+        <li>
+          <a href="">Apply for Credit card</a>
+        </li>
+        <li>
+          <a href="../Loan">3% interest at personal laon</a>
+        </li>
+        <li>
+          <a href="">offers for Credit Card</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12 footer_menu py-3">
+   
+      <ul>
+        <h3 style="color:#fe9d1b;">Contact</h3>
+        <li>
+          <a href=""><i class="fa fa-phone"></i> 74387388474</a>
+        </li>
+        <li>
+          <a href=""><i class="fa fa-envelope"></i> gmail@gmail.com</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+ </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script type="text/javascript" src="slick-1.8.1\slick\slick.min.js"></script>
+  <script src="../js/form.js"></script>
+<script>
+
+  // Add minus icon for collapse element which is open by default
+
+
+
+	  </script>
+
+</body>
+
+</html>
